@@ -1,0 +1,218 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+
+section h2{
+    margin: 4rem 0 2rem 0;
+}
+
+
+.my-container{
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.justify-self-start{
+    justify-self: start;
+}
+
+.center-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+.size-medium{
+    font-size: 1.3rem;
+}
+
+.size-small{
+    font-size: 0.8rem;
+}
+
+
+header{
+    width: 100%;
+    height: 8vh;
+   
+}
+
+.header-and-footer-container{
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 1rem;
+
+}
+
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    font-weight: 700;
+}
+
+.box-with-shadow{
+    box-shadow: 0px 15px 10px 15px rgba(41, 41, 41, .50);
+}
+
+
+section.america-sur-section{
+    width: 100%;
+    height: 92vh;
+    background-image: url('../assets/img/Viajes_Hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+
+.page-title-container{
+    width: 35vw;
+    height: 300px;
+    padding-top: 130px;
+}
+
+.title-box{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.page-title-container h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.page-title-container i{
+    margin-right: 1rem;
+    font-size: 2rem;
+
+}
+
+
+.page-title-container hr{
+    border: 0.2px solid rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+.page-title-container p{
+    display: block;
+    margin: 17px auto;
+}
+
+/*EUROPA DIV*/
+
+.europa-div-container{
+    width: 18vw;
+    height: 150px;
+    padding: 20px;
+    background-color: rgb(41 39 46 / 68%);
+    border: 2px dashed grey;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 10vh;
+
+}
+
+.europa-div-container h4{
+    font-size: 1rem;
+    color: #fa6980;
+    margin-right: 15px;
+    margin-bottom: 2px;
+}
+
+.europa-div-container h6{
+    margin-top: 6px;
+}
+
+.numero-pagina{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.652);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    bottom: 10vh;
+
+}
+
+.numero-pagina p{
+    margin-bottom: 3px;
+    color: rgb(41, 41, 41);
+    font-size: small;
+    font-weight: 700;
+}
+
+.numero-pagina::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20vw;
+    height: 5px;
+    background-color: #fa6980;
+    right: 100%;
+}
+
+.new-card{
+    position: relative;
+}
+
+
+#blog-section{
+    width: 100%;
+    height: 145vh;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #2A3037;
+    margin-top: 8vh;
+}
+
+footer i{
+    color: white;
+}
+
+.boton {
+    width: 10px;
+    height: 2px;
+}
